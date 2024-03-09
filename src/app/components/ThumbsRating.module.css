@@ -1,0 +1,18 @@
+/* components/ThumbsRating.module.css */
+
+.thumbsRating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: #ccc; /* Default color */
+  }
+  
+  .selected {
+    color: blue; /* Selected color */
+  }
+  

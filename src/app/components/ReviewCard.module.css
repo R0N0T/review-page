@@ -1,0 +1,30 @@
+/* components/ReviewCard.module.css */
+
+.reviewCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: white; /* Add this line */
+  }
+  
+  .rating {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .starRating {
+    font-size: 24px;
+  }
+  
+  .starRating span {
+    cursor: pointer;
+    color: #ccc;
+  }
+  
+  .starRating span:hover,
+  .starRating span.checked {
+    color: #ffcc00;
+  }
+  
